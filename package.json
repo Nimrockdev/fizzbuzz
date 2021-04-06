@@ -1,0 +1,26 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "fizzbuzz test for developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",    
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nimrockdev/fizzbuzz.git"
+  },
+  "author": "Javier Sánchez Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nimrockdev/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/Nimrockdev/fizzbuzz#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "jest": "^26.6.3"
+  }
+}
